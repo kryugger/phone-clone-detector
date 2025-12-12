@@ -1,0 +1,29 @@
+# Исключаем ВСЕ логи и отчеты
+logs/
+src/logs/
+*.log
+*.txt
+*.html
+
+# Исключаем только автоматически генерируемые HTML файлы
+# но оставляем reports/example_report.html как пример
+reports/*.html
+!reports/example_report.html
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Бинарные файлы
+*.exe
+*.zip
+*.dll
+
+# Конфиденциальные данные
+*.env
+secrets.txt
